@@ -15,12 +15,14 @@ export default function Favourite() {
                 <p className={`mt-55 text-3xl sm:text-4xl py-10 font-extrabold text-transparent bg-clip-text ${theme === 'dark' ? 'bg-gray-900 text-white' : 'bg-slate-200 text-black '} mb-10 text-center flex flex-col justify-center items-center`}>No Favourite Movies yet</p>
                 <div className="items-center">
                      <div className="flex mt-10 justify-items-center">
+                        <div className="items-center">
                             <button
                             onClick={() => navigate("/")}
                             className="mb-6 px-4 py-2 bg-yellow-500 text-black font-semibold rounded-lg hover:bg-yellow-600"
                             >
                             Get some movies
                             </button>
+                        </div>
                     </div>
                 </div>
             </div>
