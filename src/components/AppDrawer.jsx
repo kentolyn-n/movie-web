@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Home, Heart, Info, Menu } from 'lucide-react';
+import { Home, Heart, Info, Menu, X } from 'lucide-react';
 
 
 export default function AppDrawer() {
@@ -23,7 +23,7 @@ export default function AppDrawer() {
         onClick={handletoggleDrawer}
         className=" p-2 text-white bg-gray-800 rounded-full transition-all duration-300 ease-in-out inline-flex items-center justify-center"
       >
-        <Menu className={`w-6 h-6 transition-transform duration-300 ${isOpen ? 'rotate-90' : 'rotate-0'}`} />
+       {isOpen ?  <X className='w-6 h-6'/>: <Menu className='w-6 h-6' /> }
       </button>
 
      {isOpen && (

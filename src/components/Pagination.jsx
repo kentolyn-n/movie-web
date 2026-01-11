@@ -64,7 +64,7 @@ export default function PaginationControls({currentPage, totalPages, handlePageC
   };
 
   return (
-    <div className="flex justify-center items-center mt-10 mb-6 flex-wrap">
+    <div className="flex justify-center items-center mt-3 mb-6 flex-wrap">
     
       <button
         className="px-4 py-3 mx-2 bg-gray-700 text-white rounded-lg font-semibold shadow-md disabled:opacity-50 hover:bg-gray-600 transition-colors"

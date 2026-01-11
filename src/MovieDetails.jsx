@@ -36,7 +36,7 @@ export default function MovieDetails() {
   if (loading) {
     return (
       <div className="min-h-screen">
-        <div className="text-center py-10 text-white mt-55 text-3xl sm:text-4xl">Loading...</div>;
+        <div className="text-center py-10 text-white mt-55 text-3xl sm:text-4xl">Loading...</div>
       </div>
     );
   }
